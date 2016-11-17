@@ -1680,3 +1680,23 @@ input[type="tel"] {
 	.btn, .navigation__item a {
 		display: block;
 		margin-bottom: .4em; } }
+
+/*Stewart CSS*/
+
+.blog-button, .rss-email-form {
+	padding: 10px 20px;
+	border: 1px solid #666666;
+	border-radius: 20px;
+	font-size: .9em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: none;
+	color: #666666;
+	background-color: Transparent;
+	-webkit-font-smoothing: antialiased;
+}
+
+.blog-button:hover, .rss-email-form:hover {
+		color: #333333;
+		border-color: #333333;
+}

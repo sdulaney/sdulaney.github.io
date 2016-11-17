@@ -4,7 +4,12 @@ layout: default
 
 <div class="main-post-list">
 
-  <h1>Blog coming soon!</h1>
+  <h1>Coming soon!</h1>
+
+  <form style="border:1px solid #ccc;padding:10%;text-align:center; margin-top:20%; margin-bottom:20%;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=StewartDulaney', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+      <p style="color:#333333;"><i class="icon icon-mail" style="color:#333333;margin-right:10px;font-size:1em;"></i>Get updates to Stewart's blog by email:</p><p><input type="text" style="width:140px;" name="email" placeholder="Email address"/></p><input type="hidden" value="StewartDulaney" name="uri"/><input type="hidden" name="loc" value="en_US"/>
+      <input type="hidden" name="loc" value="en_US"/><input type="submit" class="blog-button rss-email-form" value="Go" />
+  </form>
 
   <ol class="post-list">
     {% for post in paginator.posts %}
