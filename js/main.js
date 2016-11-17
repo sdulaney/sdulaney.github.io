@@ -5,8 +5,10 @@ $(document).ready(function () {
   $('a.blog-button').click(function (e) {
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     currentWidth = $('.panel-cover').width()
+    document.title = "Blog | Stewart Dulaney"
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed')
+      document.title = "Blog | Stewart Dulaney"
       $('.content-wrapper').addClass('animated slideInRight')
     } else {
       $('.panel-cover').css('max-width', currentWidth)
