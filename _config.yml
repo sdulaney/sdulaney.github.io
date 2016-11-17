@@ -1,8 +1,7 @@
 # Site settings
 title: Stewart Dulaney
 description: 'Software developer in Los Angeles'
-url: 'https://stewartdulaney.com'
-enforce_ssl:'stewartdulaney.com'
+url: 'https://www.stewartdulaney.com'
 baseurl: '/'
 google_analytics: 'UA-76143550-1'
 disqus_shortname: 'www-stewartdulaney-com'
