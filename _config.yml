@@ -40,4 +40,4 @@ exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', '_site' ]
 
 # deployment
 host: 127.0.0.1
-port: 5000
+port: 4000
